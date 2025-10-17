@@ -1,17 +1,23 @@
-# WebCode Studio Pro (Splash Edition)
+# WebCode Studio Pro v2 (Splash Edition)
 
-A lightweight in-browser HTML editor with live preview and elegant splash screen.
+WebCode Studio Pro v2 — HTML editor in browser with Monaco editor, splash screen, theme toggle, and fullscreen preview modal.
 
-## ✨ Features
-- Live HTML editing with real-time preview
-- Export your code as `.html` or `.zip`
-- Modern minimalist UI
-- Smooth splash screen transition
+## Features
 
-## 🚀 Usage
-1. Open `index.html` in your browser.
-2. Write HTML in the left panel.
-3. Preview updates live on the right.
-4. Click "Export ZIP" to download your project.
+- Monaco Editor with line numbers and syntax highlighting
+- Splash screen (1.5s) before entering editor
+- Light (default) / Dark theme toggle
+- New, Save (download .html), Preview (fullscreen modal)
+- Local autosave to localStorage
 
-Made with ❤️ by ChatGPT & Jajang Suteja
+## How to deploy
+
+Upload these files to the root of your GitHub repository and enable GitHub Pages (branch: main, folder: root).
+
+Files included:
+- index.html (splash)
+- editor.html (main editor)
+- styles.css
+- script.js
+
+Enjoy!
