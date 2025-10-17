@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebCode Studio Pro</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="splash.css">
+</head>
+<body>
+  <div id="splash-screen">
+    <div id="splash-logo">WebCode Studio Pro</div>
+  </div>
+
+  <header>
+    <h1>WebCode Studio Pro</h1>
+    <button id="newFile">New</button>
+    <button id="openFile">Open</button>
+    <button id="saveFile">Save</button>
+    <button id="downloadZip">Export ZIP</button>
+  </header>
+
+  <main>
+    <textarea id="editor" placeholder="Write your HTML code here..."></textarea>
+    <iframe id="preview"></iframe>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
